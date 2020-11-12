@@ -5,7 +5,7 @@ import { createMuiTheme,
 	makeStyles,
 	Theme,
 	ThemeProvider,} from '@material-ui/core/styles';
-import { Grid } from '@material-ui/core/';
+import { Grid, Link } from '@material-ui/core/';
 import { AppBar, Toolbar, Typography, Button, IconButton, Menu }  from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu';
 
@@ -35,7 +35,7 @@ export default function Bar() {
     <div className={classes.root}>
       <AppBar position="fixed" style={{ background: '#a8c5ff' }}>
         <Toolbar>
-          <Typography className={classes.text} variant="h6">e.t.</Typography>
+          <Typography href="./" className={classes.text} variant="h6"><Link underline='none' href="./" color="inherit">e.t.</Link></Typography>
 		  <Grid container justify="flex-end">
      		<Button className={classes.buttonText}>Hello</Button>
 			<Button className={classes.buttonText}>Goodbye</Button>

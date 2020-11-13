@@ -22,17 +22,31 @@ const useStyles = makeStyles((theme) => ({
 	}
   }));
 
-export default function Bar() {
+export default function Bar(props) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" style={{ background: '#a8c5ff' }}>
+      <AppBar elevation={0} position="fixed" style={{ background: '#a8c5ff' }}>
         <Toolbar>
           <Typography href="./" className={classes.text} variant="h6"><Link underline='none' href="./" color="inherit">e.t.</Link></Typography>
-		  <Grid container justify="flex-end">
-     		<Button href="./Hello" className={classes.buttonText}><u>Hello</u></Button>
-			<Button href="./Goodbye" className={classes.buttonText}><u>Goodbye</u></Button>
-		  </Grid>
+		  {props.landing && (
+			  <Grid container justify="flex-end">
+			  <Button href="./Hello" className={classes.buttonText}>Hello</Button>
+			 <Button href="./Goodbye" className={classes.buttonText}>Goodbye</Button>
+		   </Grid>
+		  )}
+		  {props.hello && (
+			  <Grid container justify="flex-end">
+			  <Button href="./Hello" className={classes.buttonText}><u>Hello</u></Button>
+			 <Button href="./Goodbye" className={classes.buttonText}>Goodbye</Button>
+		   </Grid>
+		  )}
+		  {props.goodbye && (
+			  <Grid container justify="flex-end">
+			  <Button href="./Hello" className={classes.buttonText}>Hello</Button>
+			 <Button href="./Goodbye" className={classes.buttonText}><u>Goodbye</u></Button>
+		   </Grid>
+		  )}
         </Toolbar>
       </AppBar>
     </div>

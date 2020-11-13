@@ -12,9 +12,9 @@ class Landing extends React.Component {
 	render() {
 	  return (
 		<div>
-			<Bar hello={false} landing={true} goodbye={false}/>
-            <header className="App-header">
-        <img src={me} className="pic-of-me" alt="logo" />
+		<Bar hello={false} landing={true} goodbye={false}/>
+        <header className="App-header">
+        <img src={me} className="App-logo" alt="logo" />
         <p>Welcome to <code>sootysoot's</code> castle.</p>
         <div className='logoContainer'>
         <a href="https://www.linkedin.com/in/tran-alexandra/" className="logo"><i class="fab fa-linkedin fa-2x"></i></a>

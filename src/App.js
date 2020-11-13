@@ -18,12 +18,12 @@ class App extends React.Component {
           <Switch> { /* Switch statement for routes */ }
             { /* Routes display different page components*/ }
             <Route exact path='/' render={() => 
-                            (<Landing appState={this.state}/>)}/>
+                            (<Landing />)}/>
             <Route exact path='/Hello' render={() => 
-                            (<Hello appState={this.state}/>)}/>
+                            (<Hello />)}/>
 
             <Route exact path='/Goodbye' render={() => 
-                            (<Goodbye appState={this.state}/>)}/>
+                            (<Goodbye />)}/>
           </Switch>
         </BrowserRouter>
       </div>

@@ -12,7 +12,7 @@ class Goodbye extends React.Component {
 	  return (
 		<div>
 			<Bar goodbye={true} landing={false} hello={false}/>
-            <p>Goodbye!</p>
+            <p className="text">Goodbye now. You can email me if u want at <a href="mailto:elexandra.tran@utoronto.ca">elexandra.tran@utoronto.ca</a></p>
 		</div>
 	  );
 	}

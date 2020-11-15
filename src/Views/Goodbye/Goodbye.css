@@ -6,3 +6,9 @@
     text-align: center;
     float: left;
 }
+
+.me-waving {
+    width: 35vh;
+    margin: 5vh;
+    display: inline-block;
+  }

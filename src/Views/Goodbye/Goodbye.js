@@ -13,8 +13,13 @@ class Goodbye extends React.Component {
 	  return (
 		<div>
 			<Bar goodbye={true} landing={false} hello={false}/>
-            <p className="text">Goodbye now. You can email me if u want at <a href="mailto:elexandra.tran@utoronto.ca">elexandra.tran@utoronto.ca</a></p>
+			<div className="topicContainer">
 			<img className="me-waving" src={wave} alt="Me waving"/>
+			<div className='textDiv'>
+			<p className="titleText">goodbye now. 👋</p>
+			<p className="paragraphText">You can email me if u want.</p>
+			</div>
+			</div>
 		</div>
 	  );
 	}

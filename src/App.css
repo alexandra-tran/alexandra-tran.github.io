@@ -6,6 +6,7 @@
   height: 40vmin;
   pointer-events: none;
   border-radius: 50%;
+  margin-bottom: 5vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -57,4 +58,16 @@ a {
   height: 40vh;
   margin: 5vh;
   display: inline-block;
+}
+
+.title-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 5vh;
+}
+
+.location-text {
+  margin-top: 0px;
+  margin-bottom: 2vh;
+  font-size: 3vh;
 }

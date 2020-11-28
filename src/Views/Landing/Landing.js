@@ -15,7 +15,8 @@ class Landing extends React.Component {
 		<Bar hello={false} landing={true} goodbye={false}/>
         <header className="App-header">
         <img src={me} className="App-logo" alt="logo" />
-        <p>Welcome to <code>sootysoot's</code> castle.</p>
+        <p className='title-text'>elexandra tran.</p>
+        <p className='location-text'>toronto, canada | university of toronto</p>
         <div className='logoContainer'>
         <a href="https://www.linkedin.com/in/tran-alexandra/" className="logo"><i class="fab fa-linkedin fa-2x"></i></a>
         <a href="https://github.com/alexandra-tran" className='logo'><i class="fab fa-github fa-2x"></i></a>

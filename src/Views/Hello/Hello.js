@@ -12,10 +12,14 @@ class Hello extends React.Component {
 	render() {
 	  return (
 		<div>
-			<Bar hello={true} landing={false} goodbye={false}/>
-			<img className="pic-of-lax" src={lax}></img>
-			<p className="text">HELLO</p>
-			<p>I play lacrosse</p>
+		<Bar hello={true} landing={false} goodbye={false}/>
+		<div className="topicContainer">
+		<img className="pic-of-lax" alt='pic of lax' src={lax}></img>
+		<div className='textDiv'>
+		<p className="titleText">hello. 👋</p>
+		<p className="paragraphText">My name is Elexandra Tran. I play lacrosse and I'm an epic gamer.</p>
+		</div>
+		</div>
 		</div>
 	  );
 	}

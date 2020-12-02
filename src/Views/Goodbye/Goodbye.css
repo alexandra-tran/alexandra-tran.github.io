@@ -41,3 +41,12 @@ a {
   margin-left: 10%;
   margin-top: 5%;
 }
+
+.bye {
+  opacity: 5%;
+  font-size: 40vh;
+  color: #474a6e;
+  position: fixed;
+  text-align: center;
+  padding-left: 15vh;
+}

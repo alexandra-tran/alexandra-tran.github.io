@@ -14,7 +14,8 @@ class Hello extends React.Component {
 	  return (
 		<div>
 		<Bar hello={true} landing={false} goodbye={false}/>
-		
+		<p className='hi'>h i.</p>
+	
 		<div className="helloContainer">
 		<p className="hello">hello. 👋 my name is Elexandra Tran (she/her). a third year comp sci student from Mississauga, ON. <a href="mailto:elexandra.tran@utoronto.ca" className='logo'><i class="far fa-envelope fa-2x"></i></a></p>
 		</div>
@@ -30,8 +31,9 @@ class Hello extends React.Component {
   			<li>i later tried a different variation of lacrosse in 2018, called box lacrosse and simply fell in love with it.</li>
   			<li>unfortunately, I encountered in multiple grave injuries which required surgery and intense rehabilitation.</li>
   			<li>as of April 2019, I became a lacrosse official.</li>
-			</ul>to see some of the teams I've joined throughout the years, click <a className='textLink' href='./Lacrosse'>here</a>.
+			</ul><a className='textLink' href='./Lacrosse'>some of the teams I've joined throughout the years.</a>
 		</p>
+		<p className='paragraphText'></p>
 		</div>
 		</div>
 

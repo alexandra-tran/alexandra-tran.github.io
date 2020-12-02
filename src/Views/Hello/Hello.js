@@ -13,13 +13,43 @@ class Hello extends React.Component {
 	  return (
 		<div>
 		<Bar hello={true} landing={false} goodbye={false}/>
+		
 		<div className="topicContainer">
 		<img className="pic-of-lax" alt='pic of lax' src={lax}></img>
 		<div className='textDiv'>
 		<p className="titleText">hello. 👋</p>
-		<p className="paragraphText">My name is Elexandra Tran. I play lacrosse and I'm an epic gamer.</p>
+		<p className="paragraphText">My name is Elexandra Tran (pronounced [i∙leks∙and∙ra]). I am a third year computer science student at the University of Toronto from Mississauga, ON. lacrosse and I'm an epic gamer.</p>
 		</div>
 		</div>
+
+		<div className="topicContainer">
+		<div className='textDiv'>
+		<p className="titleText">lacrosse.</p>
+		<p className="paragraphText">My name is Elexandra Tran (pronounced [i∙leks∙and∙ra]). I am a third year computer science student at the University of Toronto from Mississauga, ON. lacrosse and I'm an epic gamer.</p>
+		</div>
+		</div>
+
+		<div className="topicContainer">
+		<div className='textDiv'>
+		<p className="titleText">bucket list.</p>
+		<p className="paragraphText">My name is Elexandra Tran (pronounced [i∙leks∙and∙ra]). I am a third year computer science student at the University of Toronto from Mississauga, ON. lacrosse and I'm an epic gamer.</p>
+		</div>
+		</div>
+
+		<div className="topicContainer">
+		<div className='textDiv'>
+		<p className="titleText">bucket list.</p>
+		<p className="paragraphText">My name is Elexandra Tran (pronounced [i∙leks∙and∙ra]). I am a third year computer science student at the University of Toronto from Mississauga, ON. lacrosse and I'm an epic gamer.</p>
+		</div>
+		</div>
+
+		<div className="topicContainer">
+		<div className='textDiv'>
+		<p className="titleText">bucket list.</p>
+		<p className="paragraphText">My name is Elexandra Tran (pronounced [i∙leks∙and∙ra]). I am a third year computer science student at the University of Toronto from Mississauga, ON. lacrosse and I'm an epic gamer.</p>
+		</div>
+		</div>
+
 		</div>
 	  );
 	}

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Hello.css';
 import lax from "../../res/Lax.jpg";
+import acnh from "../../res/acnh.jpg";
 // import { Avatar } from "@material-ui/core";
 // import { Add } from "@material-ui/icons";
-import { Bar, NestedList } from '../../Components';
+import { Bar } from '../../Components';
 // import { Link } from 'react-router-dom';
 
 class Hello extends React.Component {
@@ -29,9 +30,8 @@ class Hello extends React.Component {
   			<li>i later tried a different variation of lacrosse in 2018, called box lacrosse and simply fell in love with it.</li>
   			<li>unfortunately, I encountered in multiple grave injuries which required surgery and intense rehabilitation.</li>
   			<li>as of April 2019, I became a lacrosse official.</li>
-			</ul>some of the teams I've joined throughout the years.
+			</ul>to see some of the teams I've joined throughout the years, click <a className='textLink' href='./Lacrosse'>here</a>.
 		</p>
-		<NestedList/>
 		</div>
 		</div>
 
@@ -56,6 +56,7 @@ class Hello extends React.Component {
 		</div>
 
 		<div className="topicContainer">
+		<img className="pic-of-acnh" alt='pic of animal crossing' src={acnh}></img>
 		<div className='textDiv'>
 		<p className="titleText">fountain pens.</p>
 		<p className="paragraphText">I currently have a TWSBI eco</p>

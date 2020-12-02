@@ -95,3 +95,15 @@ a {
     margin: 20%;
     border: 2px solid black;
   }
+
+  .textLink:hover {
+    color: #90bef0;
+  }
+
+  .pic-of-acnh {
+    width: 20%;
+    right: 5%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+  }

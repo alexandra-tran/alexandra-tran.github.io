@@ -14,27 +14,22 @@ class Hello extends React.Component {
 		<div>
 		<Bar hello={true} landing={false} goodbye={false}/>
 		
-		<div className="topicContainer">
-		<img className="pic-of-lax" alt='pic of lax' src={lax}></img>
-		<div className='textDiv'>
-		<p className="titleText">hello. 👋</p>
-		<p className="paragraphText">My name is Elexandra Tran (she/her). A third year computer science student at the University of Toronto from Mississauga, ON.</p>
-		</div>
+		<div className="helloContainer">
+		<p className="hello">hello. 👋 my name is Elexandra Tran (she/her). a third year comp sci student from Mississauga, ON. <a href="mailto:elexandra.tran@utoronto.ca" className='logo'><i class="far fa-envelope fa-2x"></i></a></p>
 		</div>
 
 		<div className="topicContainer">
+		<img className="pic-of-lax" alt='pic of lax' src={lax}></img>
 		<div className='textDiv'>
 		<p className="titleText">lacrosse.</p>
 		<p className="paragraphText">
-			Some cool milestones.
+			some cool milestones.
 			<ul>
-			<li>I started playing women's field lacrosse in high school, in 2016.</li>
-  			<li>I later tried a different variation of lacrosse in 2018, called box lacrosse and simply fell in love with it.</li>
-  			<li>Unfortunately, I encountered in multiple grave injuries which required surgery and intense rehabilitation.</li>
-  			<li>As of April 2019, I became a lacrosse official.</li>
-			</ul>Aside from playing, I like watching pro lacrosse (NLL). I often attend the Toronto Rocks home games in the Scotiabank Arena!
-		</p>
-		<p className="paragraphText">Here are some of the teams I've joined throughout the years...
+			<li>i started playing women's field lacrosse in high school, in 2016.</li>
+  			<li>i later tried a different variation of lacrosse in 2018, called box lacrosse and simply fell in love with it.</li>
+  			<li>unfortunately, I encountered in multiple grave injuries which required surgery and intense rehabilitation.</li>
+  			<li>as of April 2019, I became a lacrosse official.</li>
+			</ul>some of the teams I've joined throughout the years.
 		</p>
 		<NestedList/>
 		</div>
@@ -45,10 +40,9 @@ class Hello extends React.Component {
 		<p className="titleText">bucket list.</p>
 		<p className="paragraphText">
 			<ul>
-			<li>Travel to Europe! I want to travel intercontinent via train. In particular, I really want to visit Santorini, Greece.</li>
-  			<li>Travel to Asia! Some of the destinations include: Vietnam, South Korea, China, Japan.</li>
-  			<li>2017</li>
-  			<li>Milk</li>
+			<li>travel to Europe. i want to travel intercontinent via train. in particular, i really want to visit Santorini, Greece.</li>
+  			<li>travel to Asia! some of the destinations include: Vietnam, South Korea, China, Japan.</li>
+  			<li>become a twitch affiliate by reaching 50 followers on<a href="https://www.twitch.tv/sootysoot" className='logo'><i class="fab fa-twitch"></i></a></li>
 			</ul>
 		</p>
 		</div>
@@ -56,15 +50,16 @@ class Hello extends React.Component {
 
 		<div className="topicContainer">
 		<div className='textDiv'>
-		<p className="titleText">bucket list.</p>
+		<p className="titleText">concerts.</p>
 		<p className="paragraphText">My name is Elexandra Tran (pronounced [i∙leks∙and∙ra]). I am a third year computer science student at the University of Toronto from Mississauga, ON. lacrosse and I'm an epic gamer.</p>
 		</div>
 		</div>
 
 		<div className="topicContainer">
 		<div className='textDiv'>
-		<p className="titleText">bucket list.</p>
-		<p className="paragraphText">My name is Elexandra Tran (pronounced [i∙leks∙and∙ra]). I am a third year computer science student at the University of Toronto from Mississauga, ON. lacrosse and I'm an epic gamer.</p>
+		<p className="titleText">fountain pens.</p>
+		<p className="paragraphText">I currently have a TWSBI eco</p>
+		<p className="paragraphText"></p>
 		</div>
 		</div>
 

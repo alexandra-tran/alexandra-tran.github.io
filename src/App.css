@@ -72,6 +72,6 @@ a {
   font-size: 3vh;
 }
 
-a:hover {
+.logo:hover {
   color: #90bef0;
 }

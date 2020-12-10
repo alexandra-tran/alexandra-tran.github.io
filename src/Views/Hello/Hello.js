@@ -5,6 +5,7 @@ import acnh from "../../res/acnh.jpg";
 // import { Avatar } from "@material-ui/core";
 // import { Add } from "@material-ui/icons";
 import { Bar } from '../../Components';
+import Fade from 'react-reveal/Fade';
 // import { Link } from 'react-router-dom';
 
 class Hello extends React.Component {
@@ -14,11 +15,13 @@ class Hello extends React.Component {
 	  return (
 		<div>
 		<Bar hello={true} landing={false} goodbye={false}/>
-		<p className='hi'>h i.</p>
-	
+		<p unselectable="on" className='hi'>h i.</p>
+		
+		<Fade left>
 		<div className="helloContainer">
 		<p className="hello">hello. 👋 my name is Elexandra Tran (she/her). a third year comp sci student from Mississauga, ON. <a href="mailto:elexandra.tran@utoronto.ca" className='logo'><i class="far fa-envelope fa-2x"></i></a></p>
 		</div>
+		</Fade>
 
 		<div className="topicContainer">
 		<img className="pic-of-lax" alt='pic of lax' src={lax}></img>
@@ -31,7 +34,7 @@ class Hello extends React.Component {
   			<li>i later tried a different variation of lacrosse in 2018, called box lacrosse and simply fell in love with it.</li>
   			<li>unfortunately, I encountered in multiple grave injuries which required surgery and intense rehabilitation.</li>
   			<li>as of April 2019, I became a lacrosse official.</li>
-			</ul><a className='textLink' href='./Lacrosse'>some of the teams I've joined throughout the years.</a>
+			</ul><a className='textLink' href='./Lacrosse'>click for some teams I've joined throughout the years.</a>
 		</p>
 		<p className='paragraphText'></p>
 		</div>

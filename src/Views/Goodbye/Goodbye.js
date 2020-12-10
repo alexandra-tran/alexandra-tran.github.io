@@ -13,7 +13,7 @@ class Goodbye extends React.Component {
 	  return (
 		<div>
 			<Bar goodbye={true} landing={false} hello={false}/>
-			<p className='bye'>b y e.</p>
+			<p unselectable="on" className='bye'>b y e.</p>
 			<div className="topicContainer">
 			<img className="me-waving" src={wave} alt="Me waving"/>
 			<div className='textDiv'>

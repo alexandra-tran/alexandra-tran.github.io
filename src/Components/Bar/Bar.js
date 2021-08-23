@@ -31,20 +31,30 @@ export default function Bar(props) {
           <Typography href="./" className={classes.text} variant="h6"><Link underline='none' href="./" color="inherit">e.t.</Link></Typography>
 		  {props.landing && (
 			  <Grid container justify="flex-end">
-			  <Button href="./Hello" className={classes.buttonText}>Hello</Button>
-			 <Button href="./Goodbye" className={classes.buttonText}>Goodbye</Button>
+			  <Button href="#/Hello" className={classes.buttonText}>Hello</Button>
+			  <Button href="#/Projects" className={classes.buttonText}>Projects</Button>
+			 <Button href="#/Goodbye" className={classes.buttonText}>Goodbye</Button>
 		   </Grid>
 		  )}
 		  {props.hello && (
 			  <Grid container justify="flex-end">
-			  <Button href="./Hello" className={classes.buttonText}><u>Hello</u></Button>
-			 <Button href="./Goodbye" className={classes.buttonText}>Goodbye</Button>
+			  <Button href="#/Hello" className={classes.buttonText}><u>Hello</u></Button>
+			  <Button href="#/Projects" className={classes.buttonText}>Projects</Button>
+			 <Button href="#/Goodbye" className={classes.buttonText}>Goodbye</Button>
 		   </Grid>
 		  )}
 		  {props.goodbye && (
 			  <Grid container justify="flex-end">
-			  <Button href="./Hello" className={classes.buttonText}>Hello</Button>
-			 <Button href="./Goodbye" className={classes.buttonText}><u>Goodbye</u></Button>
+			  <Button href="#/Hello" className={classes.buttonText}>Hello</Button>
+			  <Button href="#/Projects" className={classes.buttonText}>Projects</Button>
+			 <Button href="#/Goodbye" className={classes.buttonText}><u>Goodbye</u></Button>
+		   </Grid>
+		  )}
+		  {props.projects && (
+			  <Grid container justify="flex-end">
+			  <Button href="#/Hello" className={classes.buttonText}>Hello</Button>
+			  <Button href="#/Projects" className={classes.buttonText}><u>Projects</u></Button>
+			  <Button href="#/Goodbye" className={classes.buttonText}>Goodbye</Button>
 		   </Grid>
 		  )}
         </Toolbar>

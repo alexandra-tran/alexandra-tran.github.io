@@ -1,0 +1,39 @@
+.proj {
+    opacity: 5%;
+    font-size: 40vh;
+    color: #474a6e;
+    position: fixed;
+    text-align: center;
+    padding-left: 15vh;
+}
+
+
+.someText {
+    font-size: 5vh;
+    float: left;
+    color: #474a6e;
+    font-weight: bold;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: left;
+    padding-top: 10vh;
+    padding-left: 10vh;
+}
+
+  .projDiv {
+      width: 100%;
+      padding-left: 10vh;
+      padding-top: 10vh;
+      display: flex;
+  }
+
+  .card {
+      display: inline-block;
+      margin: 10vh;
+  }
+
+  .innerDiv {
+      margin: 2vh;
+      height: 20%;
+  }

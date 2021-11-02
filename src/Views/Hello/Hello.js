@@ -23,7 +23,7 @@ class Hello extends React.Component {
 		
 		<Fade left>
 		<div className="helloContainer">
-		<p className="hello">hello. 👋 my name is Elexandra Tran (she/her). a third year comp sci student from Mississauga, ON. <a href="mailto:elexandra.tran@utoronto.ca" className='logo'><i class="far fa-envelope fa-2x"></i></a></p>
+		<p className="hello">hello. 👋 my name is Elexandra Tran (she/her/hers). a fourth year comp sci student from Mississauga, ON.</p>
 		</div>
 		</Fade>
 		<img className="pic-of-lax" alt='pic of lax' src={lax}></img>
@@ -42,10 +42,19 @@ class Hello extends React.Component {
 		<p className="titleText">about me.</p>
 		<p className="paragraphText">
 			<ul>
+			<li>i am treating this website as an informal linktree ahahaha</li>
+			<li>currently residing in Guelph, Ontario</li>
 			<li>i really wish to travel to Europe. i want to travel within the continent via train. in particular, i really want to visit Santorini, Greece.</li>
   			<li>i sometimes stream on<a href="https://www.twitch.tv/sootysoot" className='logo'><i class="fab fa-twitch"></i></a></li>
 			</ul>
 		</p>
+		</div>
+		</div>
+
+		<div className="topicContainer">
+		<div>
+		<p className="titleText">current involvements.</p>
+		<p className="paragraphText">an undergraduate researcher at the<a className='textLink' href="http://www.josephjaywilliams.com/">IAI Lab</a></p>
 		</div>
 		</div>
 

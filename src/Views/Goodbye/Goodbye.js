@@ -17,8 +17,7 @@ class Goodbye extends React.Component {
 			<img className="me-waving" src={wave} alt="Me waving"/>
 			<div className='textDiv'>
 			<p className="titleText">goodbye now. 👋</p>
-			<p className="paragraphText">Thank you for visiting. Please feel free to email me!</p>
-			<p className='paragraphText'><i class="far fa-envelope"></i> <i class="fas fa-long-arrow-alt-right"></i><a href="mailto:elexandra.tran@utoronto.ca" className='logo'>elexandra.tran@utoronto.ca</a><a href='mailto:elexandra.tran@utoronto.ca'></a></p>
+			<p className="paragraphText">Thank you for visiting. </p>
 			</div>
 			</div>
 		</div>

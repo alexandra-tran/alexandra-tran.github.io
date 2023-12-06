@@ -1,12 +1,13 @@
 import React from 'react';
 import './Hello.css';
 import lax from "../../res/Lax.jpg";
-import acnh from "../../res/acnh.jpg";
 import blue from "../../res/blue.jpg";
 import purple from "../../res/purple.jpg";
 import light_purple from "../../res/light_purple.jpg";
 import scribble from "../../res/scribble_writing.jpg"
 import normal from "../../res/normal_writing.jpg"
+import varsity from "../../res/Var.jpg";
+import lax_play from "../../res/lax-play.JPG";
 // import { Avatar } from "@material-ui/core";
 // import { Add } from "@material-ui/icons";
 import { Bar, Timeline } from '../../Components';
@@ -23,7 +24,7 @@ class Hello extends React.Component {
 		
 		<Fade left>
 		<div className="helloContainer">
-		<p className="hello">hello. 👋 my name is Elexandra Tran (she/her/hers). a fourth year comp sci student from Mississauga, ON.</p>
+		<p className="hello">hello. 👋 my name is Elexandra Tran (she/her/hers) from Guelph, ON.</p>
 		</div>
 		</Fade>
 		<img className="pic-of-lax" alt='pic of lax' src={lax}></img>
@@ -41,22 +42,33 @@ class Hello extends React.Component {
 		<div>
 		<p className="titleText">about me.</p>
 		<p className="paragraphText">
+			I recently graduated UofT in June 2023. I'm not up to much this year. LOL.
+		</p>
+		<p className="titleText">lacrosse.</p>
+		<p className="paragraphText">
+			This summer I played box lacrosse. My COMEBACK. I've played lacrosse since 2015 and it is my absolute favourite sport. However I got a major knee injury, preventing me from playing until now. And I'm incredibly proud to take my first step back into it and played with the Mississauga Badgers in Ontario <a className='textLink' href="http://owbll.ca/">Women's Major Series Lacrosse</a>. I did dabble a bit playing with UofT in undergrad but did not love it. 
+		</p>
+		<img className="varsity-pic" alt='varsity-pic' src={varsity}></img>
+		<img className="lax-play" alt='varsity-pic' src={lax_play}></img>
+		<p className="titleText">trips in 2023.</p>
+		<p className="paragraphText"> 
 			<ul>
-			<li>i am treating this website as an informal linktree ahahaha</li>
-			<li>currently residing in Guelph, Ontario</li>
-			<li>i really wish to travel to Europe. i want to travel within the continent via train. in particular, i really want to visit Santorini, Greece.</li>
-  			<li>i sometimes stream on<a href="https://www.twitch.tv/sootysoot" className='logo'><i class="fab fa-twitch"></i></a></li>
+				<li>New York City, NY (May)</li>
+				<li>Wolfville, NS (June)</li>
+				<li>Sauble Beach & Tobermory, ON with my lacrosse team &lt;3 (July)</li>
+				<li>Orlando, FL ~yeah Disneyworld (July)</li>
+				<li>Nova Scotia again (Aug)</li>
+				<li>Cancun, Mexico (Sep)</li>
+				<li>London, UK (Sep)</li>
+				<li>Edinburgh, UK (Sep)</li>
+				<li>Paris, France (Oct)</li>
 			</ul>
 		</p>
+		
 		</div>
 		</div>
 
-		<div className="topicContainer">
-		<div>
-		<p className="titleText">current involvements.</p>
-		<p className="paragraphText">an undergraduate researcher at the<a className='textLink' href="http://www.josephjaywilliams.com/">IAI Lab</a></p>
-		</div>
-		</div>
+		
 
 		{/* <div className="topicContainer">
 		<div>
@@ -86,6 +98,9 @@ class Hello extends React.Component {
 		<p className="paragraphText"></p>
 		</div>
 		</div>
+		<p className="lastUpdateText">
+			last updated: Dec 2023
+		</p>
 
 		</div>
 
@@ -93,5 +108,5 @@ class Hello extends React.Component {
 	  );
 	}
   }
-  
+  // i really want to visit Santorini, Greece.i sometimes stream on<a href="https://www.twitch.tv/sootysoot" className='logo'><i class="fab fa-twitch"></i></a>
 export default Hello;

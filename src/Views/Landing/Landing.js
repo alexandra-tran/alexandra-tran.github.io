@@ -13,11 +13,12 @@ class Landing extends React.Component {
         <p className='title-text'>elexandra tran.</p>
         <p className='location-text'>toronto, canada | university of toronto</p>
         <div className='logoContainer'>
-        <a href="https://www.linkedin.com/in/tran-alexandra/" className="logo"><i class="fab fa-linkedin fa-2x"></i></a>
+        {/* <a href="https://www.linkedin.com/in/tran-alexandra/" className="logo"><i class="fab fa-linkedin fa-2x"></i></a>
         <a href="https://github.com/alexandra-tran" className='logo'><i class="fab fa-github fa-2x"></i></a>
-        <a href="https://gitlab.com/alexandra-tran" className='logo'><i class="fab fa-gitlab fa-2x"></i></a>
-        <a href="https://instagram.com/woahalexisonfire" className='logo'><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://gitlab.com/alexandra-tran" className='logo'><i class="fab fa-gitlab fa-2x"></i></a> */}
+        <a href="https://instagram.com/elexandra.tran" className='logo'><i class="fab fa-instagram fa-2x"></i></a>
         <a href="mailto:elexandra.tran@utoronto.ca" className='logo'><i class="far fa-envelope fa-2x"></i></a>
+        <a href="https://scholar.google.ca/citations?user=nSl-SyUAAAAJ&hl=en&oi=ao" className='logo'><i class="fa-brands fa-google-scholar"></i></a>
         </div>
       </header>
 		</div>
